@@ -3,13 +3,6 @@ from forward_model import forward_ez, simulate_observed_stats
 from inverse_model import inverse_ez
 
 def simulate_and_recover(true_v, true_a, true_t, N):
-    """
-    Simulate one iteration:
-      - Compute predicted stats using forward equations.
-      - Simulate observed stats based on sample size N.
-      - Recover parameters using inverse equations.
-      - Return bias (true - estimated) and squared error.
-    """
     R_pred, M_pred, V_pred = forward_ez(true_v, true_a, true_t)
     R_obs, M_obs, V_obs = simulate_observed_stats(R_pred, M_pred, V_pred, N)
     v_est, a_est, t_est = inverse_ez(R_obs, M_obs, V_obs)
@@ -18,13 +11,6 @@ def simulate_and_recover(true_v, true_a, true_t, N):
     return bias, sq_error
 
 def run_simulation(N, iterations=1000):
-    """
-    Run simulate-and-recover for a given sample size N over a specified number of iterations.
-    
-    Returns:
-      mean_bias: average bias for [v, a, t] over iterations
-      mean_sq_error: average squared error for [v, a, t]
-    """
     biases = []
     sq_errors = []
     for _ in range(iterations):
