@@ -12,7 +12,8 @@
   - I also included two bash scripts, one to run src, which runs the entire simulation exercise, and one to run the tests!
   
 ### Conclusions:
-- An
+- Simulate_and_recover outputs the used sample size, the average biases of the drift rate, boundary separation, and non-decision time.
+- It also calls on the forward and inverse models, which helps compare the two to see how accurate the inverse process's outputs are. A low bias and small squared error show that the method is reliable. The sample size is different because, with a larger sample, the inverse model will be more similar (in this case, showing a lower number in average bias and average squared error) to the real values.
 - **Example:** 
   Sample Size: 10
   Average Bias [v, a, t]: [ 6.02438831e-01 -8.81974945e+02  1.49593905e+09]
