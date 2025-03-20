@@ -1,12 +1,19 @@
-## Acknowledgements
+## Read Me
 
-### Sources for Bash Script Integration
+### Goals
+- I wanted to create code that helped filter and prioritze important data. My simulate-and-recover code was mainly focusing on testing both the forward and inverse diffusion model.
+
+### Methods
+- **
+### Conclusions
+
+### Sources
 - **Visual Studio Code Shell Integration:**  
   [https://code.visualstudio.com/docs/terminal/shell-integration](https://code.visualstudio.com/docs/terminal/shell-integration)
 - **AskUbuntu: How to Run and Debug Bash Scripts from VSCode:**  
   [https://askubuntu.com/questions/1228213/how-to-run-and-debug-bash-script-from-vscode](https://askubuntu.com/questions/1228213/how-to-run-and-debug-bash-script-from-vscode)
 - **StackOverFlow:**
-  [https://stackoverflow.com/questions/40185437/no-module-named-numpy-visual-studio-code]
+  [https://stackoverflow.com/questions/40185437/no-module-named-numpy-visual-studio-code](https://stackoverflow.com/questions/40185437/no-module-named-numpy-visual-studio-code)
 
 ### Resources for EZ Diffusion Model Implementation
 - **ChatGPT:**  
