@@ -1,15 +1,16 @@
 ## Read Me
 
 ### Goals
-- I wanted to create code that helped filter and prioritize essential data. My simulate-and-recover code mainly focused on testing the forward and inverse diffusion models.
+- I wanted to create code that helped filter and prioritize essential data to compute parameters from summary statistics. My simulate-and-recover code mainly focused on testing the forward and inverse diffusion models, with the forward equation giving summary statistics in terms of parameters and the inverse equation giving the parameters in terms of summary statistics.
 
 ### Methods
-- #### SRC
-  - etc
-- #### Tests
-  - etc
-- #### Bash
-- I also included two bash scripts, one to run src, which runs the entire simulation exercise, and one to run the tests!
+- **SRC**
+  - 
+- **Tests**
+  - The forward model turns parameters of the EZ diffusion model to compute different summary statistics.
+      - I used
+- **Bash**
+  - I also included two bash scripts, one to run src, which runs the entire simulation exercise, and one to run the tests!
 ### Conclusions
 
 ### Sources
