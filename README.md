@@ -26,8 +26,17 @@
   Sample Size: 4000
   Average Bias [v, a, t]: [ 0.3490102  -1.36608652 25.98392593]
   Average Squared Error [v, a, t]: [5.33704403e-01 6.48759392e+00 5.40928069e+03]
-- **RESULTS SEEN:**
-  - Since the values of the average
+- **Tests:**
+  - I incorporated five tests to guarantee that the results are not due to confounding issues.
+      - Test_forward_inverse_consist: This test looks for when the observed and predicted statistics are the same.
+      - Test-forward-returns-valid-accuracy: This test ensures that the forward model's output falls between 0 and 1. If not, it is not realistic.
+      - Test_fixed_seed_reproducibility: This test checks if the results coincide with the seed.
+      - Test_sample_size_effect: this checks that the squared error gets smaller as the sample size gets bigger.
+      - integration_test_fixed_params + Test_integration_parameter_set: these tests test with specific values if average bias appears.
+  
+
+### RESULTS SEEN:**
+  - Since the average bias and average squared error values decreased as the sample size increased, and the data adequately passed my five tests, I can conclude that the inverse model correctly finds the actual parameters with little to no bias. This means that in most contexts, the inverse model is equivalent in usage to the forward model.
  
 ### Sources:
 - **Visual Studio Code Shell Integration:**  
