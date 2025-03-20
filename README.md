@@ -1,10 +1,15 @@
 ## Read Me
 
 ### Goals
-- I wanted to create code that helped filter and prioritze important data. My simulate-and-recover code was mainly focusing on testing both the forward and inverse diffusion model.
+- I wanted to create code that helped filter and prioritize essential data. My simulate-and-recover code mainly focused on testing the forward and inverse diffusion models.
 
 ### Methods
-- **
+- #### SRC
+  - etc
+- #### Tests
+  - etc
+- #### Bash
+- I also included two bash scripts, one to run src, which runs the entire simulation exercise, and one to run the tests!
 ### Conclusions
 
 ### Sources
