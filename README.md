@@ -6,10 +6,8 @@
 ### Methods
 - **SRC: forward and inverse model**
   - The forward model turns parameters of the EZ diffusion model to compute different summary statistics.
-      - I used
 - **SRC: forward and inverse model**
   - The forward model turns parameters of the EZ diffusion model to compute different summary statistics.
-      - I used
 - **Bash**
   - I also included two bash scripts, one to run src, which runs the entire simulation exercise, and one to run the tests!
   
