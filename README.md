@@ -13,7 +13,7 @@
   
 ### Conclusions:
 - An
-- Example: 
+- **Example:** 
   Sample Size: 10
   Average Bias [v, a, t]: [ 6.02438831e-01 -8.81974945e+02  1.49593905e+09]
   Average Squared Error [v, a, t]: [9.31816845e-01 4.14895832e+06 1.70479404e+19]
