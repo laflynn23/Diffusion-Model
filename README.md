@@ -35,7 +35,7 @@
       - integration_test_fixed_params + Test_integration_parameter_set: these tests test with specific values if average bias appears.
   
 
-### RESULTS SEEN:
+### Results seen:
   - Since the average bias and average squared error values decreased as the sample size increased, and the data adequately passed my five tests, I can conclude that the inverse model correctly finds the actual parameters with little to no bias. This means that in most contexts, the inverse model is equivalent in usage to the forward model.
  
 ### Sources:
