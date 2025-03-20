@@ -1,4 +1,4 @@
-## Read Me
+# Read Me
 
 ### Goals:
 - I wanted to create code that helped filter and prioritize essential data to compute parameters from summary statistics. My simulate-and-recover code mainly focused on testing the forward and inverse diffusion models, with the forward equation giving summary statistics in terms of parameters and the inverse equation giving the parameters in terms of summary statistics.
@@ -26,7 +26,9 @@
   Sample Size: 4000
   Average Bias [v, a, t]: [ 0.3490102  -1.36608652 25.98392593]
   Average Squared Error [v, a, t]: [5.33704403e-01 6.48759392e+00 5.40928069e+03]
-
+- **RESULTS SEEN:**
+  - Since the values of the average
+ 
 ### Sources:
 - **Visual Studio Code Shell Integration:**  
   [https://code.visualstudio.com/docs/terminal/shell-integration](https://code.visualstudio.com/docs/terminal/shell-integration)
